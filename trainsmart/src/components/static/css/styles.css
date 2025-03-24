@@ -1,0 +1,58 @@
+/* Estilo general del body */
+body {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina el margen por defecto del body */
+    background-color: #f0f0f0; /* Fondo opcional */
+}
+
+/* Estilo general del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: auto; /* Centra el formulario en la página */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del formulario */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    background-color: #f9f9f9; /* Fondo del formulario */
+}
+
+/* Estilo de los inputs y selects */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado entre inputs */
+    border: 1px solid #ccc; /* Borde de los inputs */
+    border-radius: 4px; /* Esquinas redondeadas */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilo del botón */
+button {
+    padding: 10px;
+    margin-top: 10px; /* Espaciado superior */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Esquinas redondeadas */
+    background-color: #28a745; /* Color de fondo */
+    color: white; /* Color del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+button:hover {
+    background-color: #218838; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo de las etiquetas opcionales */
+label {
+    margin-bottom: 5px; /* Espaciado inferior */
+    font-weight: bold; /* Texto en negrita */
+}
